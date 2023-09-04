@@ -1,10 +1,10 @@
-# British Airways - Airline Review Data Analysis Project
+# British Airways - Airline Review Data Science and Analysis Project
 
-This project involves scraping review data from the web, specifically from the website Skytrax. I will focus on collecting reviews about British Airways airline itself, clean and prepare the data, and then perform analysis to uncover insights. This readme provides an overview of my project.
+This project involves scraping review data from the web, specifically from the website Skytrax. I focused on collecting reviews about British Airways airline itself, cleaned and prepared the data, and then performed analysis to uncover insights. This readme provides an overview of my project.
 
 ## Data Collection
 
-To start collecting data, I will run Python code that helps gather data from Skytrax. I have created a "data" folder and set my file path accordingly.
+To start collecting data, I used BeautifulSoup4 that helps gather data from Skytrax. At first I stored it in a dataframe, then later using pandas created a csv file and saved it in the data folder.
 
 ## Data Cleaning
 
