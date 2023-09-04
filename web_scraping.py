@@ -10,7 +10,7 @@ reviews = []
 
 for i in range(1, pages + 1):
 
-    print(f"Scraping page {i}")
+    #print(f"Scraping page {i}")
 
     # Create URL to collect links from paginated data
     url = f"{base_url}/page/{i}/?sortby=post_date%3ADesc&pagesize={page_size}"
@@ -29,6 +29,6 @@ for i in range(1, pages + 1):
 
 df = pd.DataFrame()
 df["reviews"] = reviews
-print(df.head())
+df.head()
 
 df.to_csv("data/british_airways_reviews.csv", index=False)
